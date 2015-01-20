@@ -82,6 +82,7 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
+  padding-top: 100;
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
@@ -164,7 +165,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 850px;
   }
 }
 
