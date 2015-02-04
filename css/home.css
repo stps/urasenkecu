@@ -16,8 +16,12 @@
   background:transparent;
 }
 
-.container {
+body {
   background-image: url("../images/arrow-back-light.png");
   background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.container {
   min-height: 800px;
 }
