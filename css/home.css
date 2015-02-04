@@ -1,5 +1,6 @@
 .bg {
-  background: url('../images/4mat.jpg') no-repeat center center;
+  background: url('../images/4matw.jpg') no-repeat center center;
+  background-size: cover;
   position: fixed;
   width: 100%;
   height: 350px; /*same height as jumbotron */
