@@ -20,9 +20,24 @@ body {
   background-image: url("../images/arrow-back-light.png");
   background-repeat: repeat;
   background-attachment: fixed;
+  font-family: 'Alegreya', serif;
+}
+
+.nav-container {
+  /*background: #F2F2E6;*/
+  background: #C1B59B;
+  color: #f0f0f0;
+}
+
+.nav-container a {
+  color: #f0f0f0;
+}
+
+.nav-container a:hover {
+  color: #c2c2c2;
 }
 
 .container {
   margin-top: 50px;
-  min-height: 800px;
+  min-height: 1000px;
 }
