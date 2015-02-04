@@ -12,6 +12,8 @@ html {
 }
 body {
   margin: 0;
+background-image: url("images/arrow.jpg");
+background-repeat: repeat-x, repeat-y;
 }
 article,
 aside,
