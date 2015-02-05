@@ -16,12 +16,35 @@
 }
 
 .jumbotron h1 {
-  margin-top: 290px;
+  margin-top: 270px;
   color: #EBEDDA;
-  text-shadow: 1px 1px 5px #444, -1px -1px 5px #444, 0px 0px 10px #000, 0px 0px 15px #444;
+  text-shadow: 1px 1px 5px #444,
+    -1px -1px 5px #444,
+    0px 0px 10px #444,
+    0px 0px 15px #444;
   text-align: center;
-  vertical-align: bottom;
 }
+
+.jumbotron h2 {
+  margin-top: -15px;
+  color: #EBEDDA;
+  text-shadow: 1px 1px 5px #444,
+    -1px -1px 5px #444,
+    0px 0px 10px #444,
+    0px 0px 15px #444;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 62px;
+  }
+  .jumbotron h2,
+  .jumbotron .h2 {
+    font-size: 42px;
+  }
+}
+
 
 body {
   background-image: url("../images/arrow-back-light.png");
@@ -45,5 +68,6 @@ body {
 }
 
 .container {
+  max-width: 900px;
   min-height: 1000px;
 }
