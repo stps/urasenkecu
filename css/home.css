@@ -54,9 +54,10 @@ body {
 }
 
 .nav-container {
-  /*background: #F2F2E6;*/
-  background: #517D4C;
-  color: #f0f0f0;
+  /*background: #517D4C;*/
+  /*background: #738e63;*/
+  background: #6c8e58;
+  color: #f0f0e0;
 }
 
 .nav-container a {
