@@ -1,5 +1,5 @@
 .bg {
-  background: url('../images/jh.jpg') no-repeat center center;
+  background: url('../images/sitting_tea.jpg') no-repeat center center;
   background-size: cover;
   position: fixed;
   margin-top: 40px;
@@ -9,6 +9,7 @@
   left:0;
   z-index: -1;
 }
+
 
 .jumbotron {
   height: 400px;
@@ -80,7 +81,7 @@ body {
 .nav-container {
   /*background: #517D4C;*/
   /*background: #738e63;*/
-  background: #eb5b3c; /* japan house orange */
+  background: #6c8e58;
   color: #f0f0e0;
 }
 

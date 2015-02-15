@@ -1,16 +1,47 @@
-urasenkecu
-==========
+# Urbana-Champaign Association of Chado Urasenke Tankokai Website
 
-* about/history (particular)/instuctors/people list
-* location/hours/contact
-* way of tea (what is chado?)
-* links to urasenke homepage and other groups in us
-* news/events/social page
-* newsletters
-* resources
-* calendar
+* Homepage
+	* Mission Statement or statement from President Gunji
+	* What is chado? What is Chanoyu?
+	* About our group (the types of people who join etc…)
+	* Relationship with Urasenke
 
-Make it look simple
+* Japan House (as dojo)
+	* Facilities
+		* tea gardens
+		* dojo
+	* Saturday Tea and Open House
+	* Photo gallery of past events?
+
+* Lessons
+	* Schedule
+	* Fees
+	* Attire
+	* rules
+	* Parking / bus directions
+	* contact information
+	* Membership to Urasenke
+
+* Members page
+	* introduce board
+	* feature some current members
+
+* What is Chado Urasenke?
+
+* Collections page?
+	* Tea bowls
+	* Kogo
+	* scrolls
+	* other tea equipment?
+
+* Contact 
+
+
+To-do:
+optimize or change images
+add footer
+improve navbar
+
 
 http://www.urasenkeseattle.org/index.html
 http://www.urasenke.org/
