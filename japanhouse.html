@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/home.css" rel="stylesheet">
+    <link href="css/japanhouse.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
 
 
@@ -55,32 +55,25 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="bg"></div>
     <div class="jumbotron">
-      <h1>Chado Urasenke Tankokai</h1>
-      <h2>Urbana-Champaign Association</h2>
+      <h2>Japan House</h2>
     </div>
 
     <!--<div class="container">-->
     <div class="container">
       <!-- Example row of columns -->
       <br/>
-      <h3>Our Mission</h3>
-      <p>
-      <i>Chado</i> means the Way of Tea, and is one of the most time honored Japanese traditional arts. It encompasses all different art forms, aesthetics, philosophies and religions. The four spirits of tea, “harmony, respect, purity and tranquility,” codified by Sen Rikyu, the greatest tea master almost four hundred years ago, signify the highest ideals of the Way of Tea. The basis of the Way of Tea involves the act of serving and receiving a bowl of tea with utmost sincerity, appreciation and attentiveness while bearing a single-mindedness and keen awareness of the concept of “ichigo, ichie” (one life, one opportunity). The Way of Tea takes ordinary, everyday activities such as arranging, cleaning, serving, and drinking, and elevates them through aesthetic ritualization into a high art form, which fosters spiritual enrichment and leads to a foundation for a way of life. I hope all of the participants in the Way of Tea acknowledge its core spirits and gain a seed of peace through their experience to be able to contribute to building a better, more peaceful world.
-      </p>
-      <p class="lbjquote">
-      <i>~ Peace is a journey of a thousand miles and it must be taken one step at a time</i><br/>
-      <span class="lbjname">Lyndon B. Johnson (1908-1973)</span>
-      </p>
-      <p class="kimiko">
-      Kimiko Gunji,<br/>President
-      </p>
-      <h3>About Us</h3>
-      <p>
-      About our group, people who are a part of it, etc.
-      </p>
 
+
+      <h3>Japan House is a unique facility that is part of the College of Fine and Applied Arts here at the University of Illinois at Urbana-Champaign.  It is a teaching facility for not only University students but also the general public.  Academic classes are held throughout the semester, tea ceremonies are offered on a weekly basis and numerous outreach programs and classes for the public strive to bring the traditional arts of Japan to the Illinois prairie.</h3>
+
+      <hr class="half-rule">
     </div>
     <!-- </div> /container -->
+
+    <div class="fullbg"></div>
+    <div class="fulljumbotron">
+    
+    </div>
 
 
     <!-- Bootstrap core JavaScript
@@ -105,7 +98,19 @@
         
         });
         
+
+        $(function() {
+          $('a.page-scroll').bind('click', function(event) {
+          var $anchor = $(this);
+          $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
       </script>
+
   </body>
 </html>
+
 
