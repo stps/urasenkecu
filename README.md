@@ -38,9 +38,9 @@
 
 
 To-do:
-optimize or change images
-add footer
-improve navbar
+* optimize or change images
+* add footer
+* improve navbar
 
 
 http://www.urasenkeseattle.org/index.html
