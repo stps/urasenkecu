@@ -121,6 +121,10 @@ body {
   min-height: 0px;
 }
 
+.container p {
+  font-size: 18px;
+}
+
 .navbar-toggle {
     position: relative;
     float: right;
