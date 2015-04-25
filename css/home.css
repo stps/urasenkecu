@@ -1,13 +1,6 @@
-.bg {
-  background: url('../images/4matw.jpg') no-repeat center center;
-  background-size: cover;
-  position: fixed;
-  margin-top: 40px;
-  width: 100%;
-  height: 400px; /*same height as jumbotron */
-  top:0;
-  left:0;
-  z-index: -1;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 .jumbotron {
@@ -45,6 +38,29 @@
   }
 }
 
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: #6c8e58;
+  color: #f0f0e0;
+  margin-top: 60px;
+}
+
+.footer p {
+  color: #f0f0f0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 body {
   background-image: url("../images/arrow-back-light.png");
@@ -70,7 +86,7 @@ body {
 
 .container {
   max-width: 900px;
-  min-height: 700px;
+  min-height: 0px;
 }
 
 .lbjquote {
