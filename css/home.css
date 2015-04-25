@@ -89,6 +89,10 @@ body {
   min-height: 0px;
 }
 
+.container p {
+  font-size: 18px;
+}
+
 .lbjquote {
   padding-left: 10%;
 }
