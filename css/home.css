@@ -39,14 +39,13 @@ html {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
   background: #6c8e58;
   color: #f0f0e0;
-  margin-top: 60px;
 }
 
 .footer p {
@@ -62,11 +61,17 @@ html {
   padding-left: 15px;
 }
 
+html {
+position: relative;
+  min-height: 100%;
+}
+
 body {
   background-image: url("../images/arrow-back-light.png");
   background-repeat: repeat;
   background-attachment: fixed;
   font-family: 'Alegreya', serif;
+  margin-bottom: 60px;
 }
 
 .nav-container {
