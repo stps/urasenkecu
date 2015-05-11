@@ -179,3 +179,8 @@ img { width: 100%;
     padding-left: 0;
     padding-right: 0;
 }
+
+hr.half-rule {
+    clear: both;
+    visibility: hidden;
+}

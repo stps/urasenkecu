@@ -158,3 +158,8 @@ body {
 .navbar-toggle .icon-bar {
     background-color: #f0f0e0
 }
+
+hr.half-rule {
+    clear: both;
+    visibility: hidden;
+}
