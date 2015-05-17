@@ -71,13 +71,15 @@
   color: #f0f0f0;
 }
 
-.container .text-muted {
+.container-f .text-muted {
   margin: 20px 0;
 }
 
-.footer > .container {
+.footer > .container-f {
   padding-right: 15px;
   padding-left: 15px;
+  vertical-align: left;
+  margin-left: 90px;
 }
 
 html {
@@ -111,6 +113,15 @@ body {
 .container {
   max-width: 900px;
   min-height: 0px;
+}
+
+.container p {
+  font-size: 18px;
+}
+.fees {
+  list-style-type: square;
+  font-size: 18px;
+  margin-top: -0.5em;
 }
 
 .navbar-toggle {
