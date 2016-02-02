@@ -77,14 +77,26 @@ html {
 }
 
 .container-f .text-muted {
-  margin: 20px 0;
+  padding-top: 20px;
+  margin: 0;
+  text-align: center;
 }
 
 .footer > .container-f {
   padding-right: 15px;
   padding-left: 15px;
   vertical-align: left;
-  margin-left: 90px;
+}
+
+@media (min-width:768px) {
+    .footer > .container-f {
+      margin-left: 90px;
+    }
+    .container-f .text-muted {
+      text-align: left;
+      margin: 20px 0;
+      padding-top: 0;
+    }
 }
 
 html {
