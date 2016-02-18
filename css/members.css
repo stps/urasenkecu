@@ -77,7 +77,7 @@ html {
 }
 
 .container-f .text-muted {
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 0;
   text-align: center;
 }
@@ -86,6 +86,12 @@ html {
   padding-right: 15px;
   padding-left: 15px;
   vertical-align: left;
+}
+
+@media (min-width:408px) {
+  .container-f .text-muted {
+    padding-top: 20px;
+  }
 }
 
 @media (min-width:768px) {
